@@ -3,7 +3,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 92px 51px 96px 51px;
+  padding: 92px 51px;
 }
 
 .header__menu {
@@ -60,6 +60,8 @@
 
 /* main */
 
+/* COVER */
+
 .cover {
   position: relative;
   z-index: 1;
@@ -115,26 +117,29 @@
 }
 
 .cover__description {
+  position: relative;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   padding-left: 28px;
-  font-size: 22px;
   text-transform: uppercase;
-  position: relative;
-  z-index: 5;
 }
 
 .cover__description-text {
-  font-weight: 400;
+  word-spacing: 0.85em;
   align-self: center;
-}
-
-.letter-spacing-extended__description {
-  letter-spacing: 1.1em;
+  line-height: 127%;
+  font-size: 22px;
 }
 
 .bet-button {
+  background-color: transparent;
   border: 1px solid #fff;
   padding: 12px 32px;
-  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
+
+/*  */
