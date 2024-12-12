@@ -239,3 +239,53 @@
   margin-left: 40px;
   font-size: 20px;
 }
+
+/* section about */
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
+  margin: 146px 24px 180px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 100%;
+  width: 240px;
+  height: 240px;
+  margin-top: 35px;
+  justify-self: center;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 136px;
+  margin-bottom: 100px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+}
+
+.about__text-first {
+  margin-bottom: 24px;
+}
+
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 180px 50px 88px;
+}
