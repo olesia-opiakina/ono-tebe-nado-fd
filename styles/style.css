@@ -19,12 +19,16 @@
   list-style: circle;
 }
 
+.header__links-list-item {
+  padding-left: 3px;
+}
+
 .header__links-list-item_no-bullet {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .header__link {
-  /* padding-left: 3px; */
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
